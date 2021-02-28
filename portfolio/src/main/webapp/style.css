@@ -27,7 +27,9 @@
     height: 4vh;
     animation: icon-load 500ms ease-in forwards;
 }
-
+div{
+    background: rgb(208, 236, 217);
+}
 .intro {
     background: rgb(208, 236, 217);
     display: flex;
@@ -45,7 +47,18 @@
 
 p {
     font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    text-indent: 10%;
+    font-size: 180%;
+}
+.mona-lisa {
+    padding-left: 10%;
+    height: 45vh;
+}
+.desc {
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
+    font-size: 180%;
 }
 
 h1 {
@@ -54,6 +67,58 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 240%; 
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    text-indent: 10%;
+    font-size: 200%; 
+}
+
+.pad {
+    height: 3vh;
+}
+
+.pics {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.pic {
+    height: 45vh;
+    padding-top: 3vh;
+}
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.url {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(36, 100, 16);
+}
+a:link {
+  text-decoration: none;
+
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
 
 @keyframes icon-load {
   0% {
