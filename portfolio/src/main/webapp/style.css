@@ -1,9 +1,74 @@
-#content {
-  margin-left: auto;
-  margin-right: auto;
-  width: 650px;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+  letter-spacing: 0rem;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-#greeting-container {
-  margin-top: 20px;
+.navbar {
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  background: rgba(66, 156, 86, 0.733);
+  height: 8vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  z-index: 6;
+  animation: nav-load 500ms ease-in forwards;
+
+}
+
+.icon {
+    height: 4vh;
+    animation: icon-load 500ms ease-in forwards;
+}
+
+.intro {
+    background: rgb(208, 236, 217);
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    padding-top: 10vh;
+    padding-bottom: 3vh;
+    width: 100%;
+}
+.portrait {
+    height: 40vh;
+    padding-bottom: 3vh;
+    align-self: center;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 300%;
+    text-align: center;
+}
+
+
+@keyframes icon-load {
+  0% {
+    height: 2vh;
+  }
+  100% {
+    height: 4vh;
+  }
+}
+
+@keyframes nav-load {
+  0% {
+    height: 4vh;
+  }
+  100% {
+    height: 8vh;
+  }
 }
