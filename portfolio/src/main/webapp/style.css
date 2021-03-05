@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .navbar {
@@ -46,7 +47,6 @@ div{
 }
 
 p {
-    font-family: 'Montserrat', sans-serif;
     text-align: justify;
     text-indent: 10%;
     font-size: 180%;
@@ -56,25 +56,21 @@ p {
     height: 45vh;
 }
 .desc {
-    font-family: 'Montserrat', sans-serif;
     text-align: center;
     font-size: 180%;
 }
 
 h1 {
-    font-family: 'Montserrat', sans-serif;
     font-size: 300%;
     text-align: center;
 }
 
 h2 {
-    font-family: 'Montserrat', sans-serif;
     text-align: center;
     font-size: 240%; 
 }
 
 h3 {
-    font-family: 'Montserrat', sans-serif;
     text-align: justify;
     text-indent: 10%;
     font-size: 200%; 
