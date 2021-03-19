@@ -28,9 +28,7 @@
     height: 4vh;
     animation: icon-load 500ms ease-in forwards;
 }
-div{
-    background: rgb(208, 236, 217);
-}
+
 .intro {
     background: rgb(208, 236, 217);
     display: flex;
@@ -41,6 +39,7 @@ div{
     width: 100%;
 }
 .portrait {
+    background: rgb(208, 236, 217);
     height: 40vh;
     padding-bottom: 3vh;
     align-self: center;
@@ -50,6 +49,18 @@ p {
     text-align: justify;
     text-indent: 10%;
     font-size: 180%;
+}
+.programming {
+    background: rgb(208, 236, 217);
+}
+.music {
+    background: rgb(208, 236, 217);
+}
+.pad {
+    background: rgb(208, 236, 217);
+}
+.gallery {
+    background: rgb(208, 236, 217);
 }
 .mona-lisa {
     padding-left: 10%;
@@ -81,12 +92,14 @@ h3 {
 }
 
 .pics {
+    background: rgb(208, 236, 217);
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
 .pic {
+    background: rgb(208, 236, 217);
     height: 45vh;
     padding-top: 3vh;
 }
@@ -114,6 +127,19 @@ a:visited {
 
 a:active {
   text-decoration: none;
+}
+
+#message {
+    background: rgb(208, 236, 217);
+    font-size: larger;
+    text-align: center;
+}
+
+#map {
+    
+    border: thin solid black;
+    height: 600px;
+    width: 100%;
 }
 
 @keyframes icon-load {

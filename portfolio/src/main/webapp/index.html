@@ -2,11 +2,13 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>My Portfolio</title>
+    <title>Mark Gitau</title>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBIegzem1Gwk3PP7elYclQe61TMb9Mr5Wk"></script>
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
   </head>
-  <body onload="showMessage()">
+  <body onload="load();">
     <nav class="navbar">
         <a href="https://www.facebook.com/markkgitau/" target="_blank">
             <img class="icon" src="images/facebook.svg" alt="facebook">
@@ -103,7 +105,12 @@
         </div>
     </div>
     <div class="pad"></div>
-    <ul id="message"></ul>
+    <div id="map"></div>
+    <div class="pad"></div>
+    <div>
+        <p id="message"></p>
+    </div>
+    
     <div class="pad"></div>
   </body>
 </html>
